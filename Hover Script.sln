@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hover Script", "Hover Script\Hover Script.csproj", "{01DE6B99-A9DE-4A20-AF98-F02D46DB32B4}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PID", "..\..\Mixins\PID\PID\PID.shproj", "{61EBA249-19F3-48B6-A25B-A4CEE90168BA}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\Mixins\PID\PID\PID.projitems*{01de6b99-a9de-4a20-af98-f02d46db32b4}*SharedItemsImports = 4
+		..\..\Mixins\PID\PID\PID.projitems*{61eba249-19f3-48b6-a25b-a4cee90168ba}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 	EndGlobalSection
